@@ -62,9 +62,7 @@
 // }
 // ====================================================================
 @mixin rdColumns($totalInRow, $gutter: 2%) {
-	background: red;
 	float: left;
-	height: 200px;
 	width: (100% - ($gutter * ($totalInRow - 1))) / $totalInRow;
 	&:nth-child(1n) {
 		margin-right: $gutter;
